@@ -4,15 +4,35 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Title</title>
+	<title>My Pinboard</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Montserrat:wght@300&display=swap" rel="stylesheet"
+	/>
 </head>
 
 <body>
-	<h1>Hello world</h1>
+	<h1 class="Header">My Pinboard</h1>
+	<div class="searchContainer">
+  <label class="searchLabel">search</label>
+  <input
+    type="text"
+    id="searchInput"
+    class="searchInput"
+    oninput="filterTags()"
+  />
+  <p id="searchResult" class="searchResult"></p>
+  <button id="newCardButton" class="newCardButton">Add a card</button>
+</div>
+  <div class="cardContainer" id="cardContainer"></div>
+</html>
+
+<body/>
+<script type="text/javascript" src="script.js"></script>
 
 </body>
 
-// DOM Exercise #1 
+
 
 
 
